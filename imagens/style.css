@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+
+
+:root {
+    --cor0: #F7DDD2 ;
+    --cor1: #F5C36E ;
+    --cor2: #D7697E ; 
+    --cor3: #F5966E ;
+    --cor4: #F5AE6E ;
+    --cor5: #F57F6E ;
+
+
+     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Bebas Neue", cursive;
+
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
